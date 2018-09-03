@@ -24,11 +24,12 @@ function johnLennonFacts(arr) {
  
  function iLoveTheBeatles(num) {
    var array = [];
-   let i = 0
+   
    do { array.push("I love the Beatles")
-     i = i + 1;
+     num = num + 1;
      
    } while (i < 15);
      
-   } return array;
+   } 
+   return array;
  }
