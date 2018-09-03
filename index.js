@@ -11,12 +11,12 @@ function incrementVariable() {
 }
 
 
-let i = 0
-function johnLennonFacts(facts) {
-  while (i < 5) {
-    incrementVariable(i);
-    
-    facts[i] + "!!!";
+function johnLennonFacts(arr) {
+  var result= []; 
+  var i = 0;
+while(i < arr.length) {
+    result.push(arr[i] + '!!!')
+    i++; 
   }
-  return facts;  
-}
+  return result; 
+ }
